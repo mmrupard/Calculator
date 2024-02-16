@@ -1,5 +1,5 @@
 * {
-  font-family: monospace;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-sizing: border-box;
 }
 
@@ -19,7 +19,7 @@
 }
 
 #clearButton {
-  grid-column: span 2;
+  grid-column: span 3;
 }
 
 .span-3 {
@@ -40,4 +40,11 @@ button {
 
 button:hover {
   background: #fff;
+}
+
+#clearButton, 
+.operationButton, 
+#equalsOperator, 
+#backspaceButton {
+  background-color: orange;
 }

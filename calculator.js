@@ -89,7 +89,7 @@ operationButtons.forEach((optBtn) =>
   optBtn.addEventListener("click", operationButtonClickEventHandler)
 );
 
-function equalsOperatorButtonClickEventHandler(e) {
+function equalsOperatorButtonClickEventHandler() {
   if (resultNumber != null && nextNumber != null && operation != null) {
     let result = operate(resultNumber, nextNumber, operation);
     display.textContent = result;
