@@ -44,7 +44,14 @@ button:hover {
 
 #clearButton, 
 .operationButton, 
-#equalsOperator, 
-#backspaceButton {
+#equalsOperator {
   background-color: orange;
+}
+
+#clearButton:hover {
+  background: #fff;
+}
+
+#equalsOperator:hover {
+  background: #fff;
 }
